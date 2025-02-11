@@ -76,17 +76,18 @@ cd movie-rec-system
 ## Example Output
 ```bash
 Enter a movie title: Avengers
-Found movies:
-Avengers, The (2012)
-Avengers: Infinity War (2018)
-Avengers: Age of Ultron (2015)
-No recommendations available for some movies.
 
 Recommended Movies:
-1. Thor: The Dark World (2013)
-2. Captain America: Civil War (2016)
-3. Iron Man 3 (2013)
-4. Ant-Man (2015)
+Avengers, The (2012)
+Thor: The Dark World (2013)
+Avengers: Age of Ultron (2015)
+Iron Man 3 (2013)
+Captain America: The First Avenger (2011)
+Thor (2011)
+Captain America: The Winter Soldier (2014)
+Captain America: Civil War (2016)
+Ant-Man (2015)
+Iron Man 2 (2010)
 ...
 ```
 
