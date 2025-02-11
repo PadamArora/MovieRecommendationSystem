@@ -15,12 +15,12 @@ The system uses the following datasets:
 2. **ratings.csv** - Contains user ratings (userId, movieId, rating, timestamp).
 
 ### Downloading the Datasets
-The datasets can be downloaded from the `dataset` directory available in this repository. Simply navigate to the `dataset` folder and extract the required CSV files. You can also manually place them in the project directory before running the script.
+The datasets can be downloaded from the `datasets` directory available in this repository. Simply navigate to the `datasets` folder and extract the required CSV files. You can also manually place them in the project directory before running the script.
 
 To download using Git:
 ```bash
 git clone https://github.com/PadamArora/movie-rec-system.git
-cd movie-rec-system/dataset
+cd movie-rec-system/datasets
 ```
 Ensure that the `movies.csv` and `ratings.csv` files are in the same directory as the script before execution.
 
