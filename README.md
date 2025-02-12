@@ -19,7 +19,7 @@ The datasets can be downloaded from the `datasets` directory available in this r
 
 To download using Git:
 ```bash
-git clone https://github.com/PadamArora/movie-rec-system.git
+git clone https://github.com/PadamArora/MovieRecommendationSystem.git
 cd movie-rec-system/datasets
 ```
 Ensure that the `movies.csv` and `ratings.csv` files are in the same directory as the script before execution.
@@ -35,8 +35,7 @@ pip install pandas scikit-learn numpy streamlit
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/PadamArora/movie-rec-system.git
-cd movie-rec-system
+git clone https://github.com/PadamArora/MovieRecommendationSystem.git
 ```
 
 ### Running the System
