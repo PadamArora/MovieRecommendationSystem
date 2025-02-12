@@ -30,7 +30,7 @@ To run this project, follow these steps:
 ### Prerequisites
 Ensure you have Python installed along with the required libraries:
 ```bash
-pip install pandas scikit-learn numpy
+pip install pandas scikit-learn numpy streamlit
 ```
 
 ### Clone the Repository
@@ -42,10 +42,14 @@ cd movie-rec-system
 ### Running the System
 1. **Run the Python script**
    ```bash
-   python movie_recommendation.py
+   python main.py
    ```
-2. **Enter a movie title** when prompted.
-3. **Get recommendations** based on content and user preferences.
+2. **Run code given below in terminal**
+   ```bash
+   streamlit run main.py
+   ```
+3. **Enter a movie title** when prompted.
+4. **Get recommendations** based on content and user preferences.
 
 ## Code Explanation
 
