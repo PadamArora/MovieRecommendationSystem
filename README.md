@@ -15,12 +15,11 @@ The system requires the following datasets:
 - **`ratings.csv`** - Contains user ratings (`userId`, `movieId`, `rating`, `timestamp`).  
 
 ### **Downloading the Datasets**  
-The datasets are available in the `datasets` directory within this repository. Simply navigate to the `datasets` folder and extract the required CSV files. Alternatively, manually place them in the project directory before running the script.  
+The datasets are available in the `datasets` directory within this repository. Simply navigate to the `datasets` folder and extract the required CSV files. 
 
-To download using Git:  
+Download the required datasets from this zip file:
 ```bash
-git clone https://github.com/PadamArora/MovieRecommendationSystem.git
-cd movie-rec-system/datasets
+https://files.grouplens.org/datasets/movielens/ml-25m.zip
 ```  
 Ensure that **`movies.csv`** and **`ratings.csv`** are present in the same directory as the script before execution.  
 
@@ -34,7 +33,8 @@ Follow these steps to set up and run the system:
    git clone https://github.com/PadamArora/MovieRecommendationSystem.git
    ```  
 
-2. **Download the datasets** (if not already included in the repository).  
+2. **Download the datasets** (if not already included in the repository).
+   Ensure that **`movies.csv`** and **`ratings.csv`** are present in the same directory as the script before execution.  
 
 3. **Install dependencies**  
    ```bash
@@ -46,7 +46,7 @@ Follow these steps to set up and run the system:
    streamlit run main.py
    ```  
 
-5. **Enter a movie title** when prompted and receive recommendations.  
+6. **Enter a movie title** when prompted and receive recommendations.  
 
 ## **How It Works**  
 
